@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: grid;
+            height: 600px;
+            width: 1200px;
+
+            grid-template-columns: 2fr 1fr;
+            grid-template-rows: 100px 1fr;
+
+            grid-template-areas:
+                "header header " 
+                "heroimage  sidebar";
+            grid-row-gap:50px;    
+            grid-column-gap: 50px;
+            align-items: center;
+            /* justify-content: space-between; */
+            border: 2px solid black;
+            box-sizing: border-box;
+        }
+        div{
+            border: 1px solid black;
+        }
+        .main > div {
+            border: 1px solid black;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+        .header{
+            grid-area:header;
+        }
+        .heroimage{
+            grid-area: heroimage;
+        }
+        .sidebar{
+            grid-area: sidebar;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">header</div>
+        <div class="heroimage">heroimage</div>
+        <div class="sidebar">sidebar</div>
+
+        <div class="div">4</div>
+        <div class="div">5</div>
+        <div class="div">6</div>
+        
+        <div class="div">7</div>
+        <div class="div">8</div>
+        <div class="div">9</div>
+        <div class="div">10</div>
+    </div>
+</body>
+</html>

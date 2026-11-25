@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e3e6e6;
+}
+
+.navbar {
+    background-color: #131921;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 15px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Searchbar */
+.searchbar {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.ALL {
+    border: none;
+    height: 100%;
+    padding: 0 10px;
+    background-color: #f3f3f3;
+}
+
+.input input {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 380px;
+    padding: 0 10px;
+}
+
+.icon {
+    background-color: #febd69;
+    height: 100%;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* Flag & Cart */
+.navbarflag {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.cart {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+    font-weight: bold;
+}
+
+/* Secondary Navbar */
+.nav2 {
+    background-color: #232f3e;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 8px 15px;
+    font-size: 14px;
+}
+
+.prime {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: auto;
+}
+
+/* Banner & Cards */
+.banner {
+    position: relative;
+    width: 100%;
+}
+
+.bg {
+    width: 100%;
+    display: block;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    right: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.card-grid img {
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+}
+
+.signin {
+    background: white;
+    color: black;
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.box {
+    background-color: #FED813;
+    color: black;
+    width: 100%;
+    height: 32px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}

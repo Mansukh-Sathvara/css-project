@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contenar{
+            background-color: bisque;
+            border:2px solid black;
+            height: 200px;
+            width: 200px;
+
+        }
+        .perspective-parent:hover > .child{
+            perspective: 500px;
+            margin: auto;
+            /* height: 200px; */
+            width: 200px;
+            border: 2px solid black;
+            transition-duration: 2s;
+            transition-timing-function: calc();
+        }
+
+        .child{
+            height: 150px;
+            width: 150px;
+            padding: 20px;
+            background-color: aquamarine;
+            border: 2px solid black;
+            transform: scale3d(1.3,2,5) rotate3d(1,-1.6,3.5,45deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="contenar">
+        <div class="perspective-parent">
+        <div class="child">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vitae dignissimos dolore consequatur voluptates veniam, aliquid illum cupiditate rem. Deleniti provident sunt ipsam autem ad quibusdam dolorum eos dolorem consectetur.</p>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

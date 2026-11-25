@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "kids world"
+		},
+		{
+			"path": "netflix"
+		},
+		{
+			"path": "spotify"
+		},
+		{
+			"path": "youtube"
+		},
+		{
+			"path": "cricket"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "css-project"
+	}
+}

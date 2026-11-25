@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #050b1b;
+            overflow: hidden;
+        }
+
+        h1{
+            color: aliceblue;
+            position: absolute;
+            padding-bottom: 700px;
+        }
+        .sun{
+            height: 100px;
+            width: 100px;
+            background-color:yellow;
+            border: 2px solid black;
+            border-radius: 50px;
+        }
+        .orbit1{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border: 2px solid white;
+            border-radius: 500px;
+        }
+        .mercury{
+            border: 2px solid white;
+            border-radius: 50px;
+            height: 35px;
+            width: 35px;
+            position: relative;
+            margin:12.5px;
+            background-color: #757575;
+        }
+        .venus{
+            position: absolute;
+            height: 45px;
+            width: 45px;
+            border: 2px solid white;
+            border-radius: 50px;
+            margin-left: 20px;
+            background-color: #E9A23B;
+            
+        }
+    </style>
+</head>
+<body>/
+    <!-- h1 -->
+    <h1>Solar System</h1>
+
+    <!-- sun -->
+    <div class="sun">
+        <img src="blob:https://chatgpt.com/3b2aa5b9-d23b-42e6-b1bd-cf010011a882" height="100px" alt="">
+    </div>
+    
+    <!-- orbit-mercury -->
+    <div class="orbit1">
+        <div class="mercury"></div>
+    </div>
+
+    <!-- orbit-venus -->
+     <div class="orbit2">
+        <div class="venus"></div>
+     </div>
+
+     <!-- Eart -->
+      <div class="orbit3">
+        <div class="earth"></div>
+      </div>
+
+     <!-- Mars -->
+      <div class="orbit4">
+        <div class="mars"></div>
+      </div>
+
+      <!-- jupiter -->
+      <div class="orbit5">
+        <div class="Jupiter"></div>
+      </div>
+      
+      <div class="orbit6">
+        <div class="saturn"></div>
+      </div>
+</body>
+</html>

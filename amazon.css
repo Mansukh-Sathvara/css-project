@@ -1,0 +1,191 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e3e6e6; /* Light grey background seen on Amazon */
+}
+
+.navbar{
+            background-color: black;
+            color: aliceblue;
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid black;
+        }
+
+.amazon{
+    padding:0px 10px;
+}        
+        /* serchbar */
+
+.searchbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 50px;
+            /* border: 2px solid red; */
+            
+ }
+
+/* selecter */
+.ALL{
+border: none;
+height: inherit;
+}
+/* input */
+.input{
+    border-left: 1px solid black;
+}
+
+.input input{
+    border: none;
+    outline: none;
+    height: 48px;
+    width: 380px;
+}
+/* serch icon */
+.icon{
+    background-color: goldenrod;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+/* flag */
+
+.navbarflag{
+    display: flex;
+    gap: 5px;
+    /* border: 2px solid red; */
+    width: 50px;
+    margin-right: 50px; 
+    justify-content: center;
+    align-items: center;
+}
+.flag{
+    padding-top:8px;
+}
+.down{
+    padding-top: 12px;
+    /* padding-right: 5px; */
+}
+
+
+
+/* cart images */
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+.homepage{
+    width:inherit;
+}
+
+.nav2{
+   background-color: black;
+   color: aliceblue;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   gap: 15px;
+}
+
+.prime {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.hamburger{
+    color: aliceblue;
+    padding-bottom: 10px;
+}
+.ALL{
+    padding-left: 20px;
+}
+
+.cart{
+    display: grid;
+    position: relative;
+    grid-template-columns: 2;
+    grid-template-rows: auto;
+    bottom: 150px;
+}
+
+.cards {
+    display: flex;
+    gap: 50px;
+    position: absolute;
+    top: 250px;
+    left: 80px;
+}
+
+
+
+.signin{
+     background: white;
+    color: black;
+    width: 150px;
+    height: 180px;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    
+}
+
+
+.box{
+    background-color:#FED813 ;
+    color: black;
+    width: 150px;
+    height: 30px;
+    border-radius: 15%;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
